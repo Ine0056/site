@@ -3,6 +3,7 @@
   <meta charset="utf-8">
   <meta http-equiv="content-script-type" content="text/javascript">
   <title>いね - home</title>
+  
   <style>
   body {
     background: #fffff0;
@@ -42,27 +43,41 @@
   }
 </style>
 </head>
+
+
 <body>
   <div class="nya-n">
     Ine's homepage
   </div>
+
   <div class="nekodesu">
     いねのホームページだよ！　現在制作中だよ！
   </div>
+
   <hr color="c0c0c0">
+
   <div class="zikosyoukai">
     にゃーーーーん
   </div>
+
   <hr color="c0c0c0">
+
   <div class="kousin">
     <SCRIPT LANGUAGE="JavaScript" type="text/javascript">
-      document.write("最終更新日：",document.lastModified)
+    var day = new Date(document.lastModified);
+    var y = day.getFullYear();			// 年を取得
+    var m = day.getMonth() + 1;			// 月を取得
+    var d = day.getDate();				// 日にちを取得
+    document.write("Last Update: " + y + "年" + m + "月" + d + "日");
     </SCRIPT>
   </div>
+  <! 参考:http://www9.plala.or.jp/oyoyon/html/script/modified.html>
+
   <div class="follow">
     ふぉろーおねがいします！！
     <br>
     <a href="https://twitter.com/Ricecat_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="ja" data-show-count="false">Follow @Ricecat_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
+
 </body>
 </html>
