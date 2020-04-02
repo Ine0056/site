@@ -1,37 +1,37 @@
 @media screen and (max-width: 480px) {
-  .nya-n {
-    background: #ffc0cb;
-    text-align: center;
-    margin: 10px auto;
-    font-size: 100;
-    width: auto;
-    color: #ffffff;
-    border-radius: 10px;
-    font-family: MS PGothic;
-  }
-  .nekodesu {
-    text-align: center;
-    font-size: 60;
-    color: #dc143c;
-  }
-  .zikosyoukai {
-    text-align: left;
-    font-size: 40;
-    color: #696969;
-  }
-  .kousin {
-    text-align: left;
-    float: left;
-    color: #696969;
-    font-family: Yu Gothic;
-    font-size: 30;
-  }
-  .follow {
-    text-align: right;
-    float: right;
-    color: #00dfff;
-    font-family: Yu Gothic;
-    font-size: 30;
-  }
+.nya-n {
+ background: #ffc0cb;
+ text-align: center;
+ margin: 10px auto;
+ font-size: 100;
+ width: auto;
+ color: #ffffff;
+ border-radius: 10px;
+ font-family: MS PGothic;
+}
+.nekodesu {
+ text-align: center;
+ font-size: 60;
+ color: #dc143c;
+}
+.zikosyoukai {
+ text-align: left;
+ font-size: 40;
+ color: #696969;
+}
+.kousin {
+ text-align: left;
+ float: left;
+ color: #696969;
+ font-family: Yu Gothic;
+ font-size: 30;
+}
+.follow {
+ text-align: right;
+ float: right;
+ color: #00dfff;
+ font-family: Yu Gothic;
+ font-size: 30;
+}
 
 }
