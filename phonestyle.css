@@ -3,7 +3,7 @@
     background: #ffc0cb;
     text-align: center;
     margin: 10px auto;
-    font-size: 10;
+    font-size: 30;
     width: auto;
     color: #ffffff;
     border-radius: 10px;
@@ -11,12 +11,12 @@
   }
   .nekodesu {
     text-align: center;
-    font-size: 20;
+    font-size: 30;
     color: #dc143c;
   }
   .zikosyoukai {
     text-align: left;
-    font-size: 15;
+    font-size: 20;
     color: #696969;
   }
   .kousin {
@@ -24,14 +24,14 @@
     float: left;
     color: #696969;
     font-family: Yu Gothic;
-    font-size: 5;
+    font-size: 15;
   }
   .follow {
     text-align: right;
     float: right;
     color: #00dfff;
     font-family: Yu Gothic;
-    font-size: 5;
+    font-size: 15;
   }
 
 }
